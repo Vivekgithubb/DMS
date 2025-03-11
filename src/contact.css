@@ -1,0 +1,44 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
+    height: 90vh;
+    width: 80vw;
+    margin:20px;
+    padding: 0 10px 0 10px;
+}
+    
+.div1, .div2, .div3,.div4{
+    border: 3px solid brown;
+    background-color: darkslateblue;
+    color: beige;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin: 10px;
+}   
+
+.div1:hover{
+    background-color: rgb(92, 85, 137);
+    color:black;  
+}
+.div2:hover{
+    background-color: rgb(92, 85, 137);
+    color:black;  
+}
+.div3:hover{
+    background-color: rgb(92, 85, 137);
+    color:black;  
+}
+.div4:hover{
+    background-color: rgb(92, 85, 137);
+    color:black;  
+}
