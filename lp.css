@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(193, 154, 160);
+    height: 100vh;
+.main{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    border-radius: 15px;
+    background-color: cadetblue;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 40vw;
+    height: 40vh;
+    padding-top: 30px;
+}
+button{
+    border-radius: 18px;
+    background-color:  rgb(193, 209, 193);
+    width: 15vw;
+    height: 27px;
+}
+button:hover{
+    background-color: chartreuse;
+}
+.ip{
+    background-color: rgb(141, 149, 157);
+}
+.ip:hover{
+    background-color: rgb(214, 222, 230);
+}
