@@ -6,17 +6,61 @@ body {
     /* background-color: rgb(193, 154, 160); */
     background: linear-gradient(rgb(137, 137, 218), rgb(192, 106, 106));
     height: 100vh;
-.main{
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    border-radius: 15px;
-    /* background-color: cadetblue; */
-    background: linear-gradient(rgb(189, 189, 152),rgb(156, 189, 155));
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    width: 40vw;
-    height: 40vh;
-    padding-top: 30px;
+    background-image: url(pexels-vlasceanu-1403653.jpg);
+    background-size: cover;
+
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        background: linear-gradient(rgb(189, 189, 152), rgb(156, 189, 155));
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        width: 60vw; /* Increased width for better layout */
+        padding: 20px;
+        gap: 20px;
+    }
+    
+    /* Left Column - Form */
+    .col1 {
+        flex: 1;
+        padding: 20px;
+    }
+    
+    /* Right Column - Image */
+    .col2 {
+        flex: 1;
+        text-align: center;
+    }
+    
+    .col2 img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    /* Style Inputs */
+    .ip {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .main {
+            flex-direction: column;
+            width: 90vw; /* Full width on small screens */
+        }
+    
+        .col1, .col2 {
+            width: 100%;
+            text-align: center;
+        }
+    }
+    
 }
 button{
     border-radius: 18px;
