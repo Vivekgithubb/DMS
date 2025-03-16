@@ -1,3 +1,4 @@
+
 .book {
     display: flex;
     align-items: center;
@@ -17,4 +18,39 @@
 }
 .note{
     font-size: 14px;
+}
+.child2 button{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 15px;
+    background-color: rgb(151, 151, 219);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.child2 button:hover{
+    background-color: rgb(55, 55, 181);
+    color: aliceblue;
+}
+#type {
+    width: 20vw;
+    height: 4vh;
+    border-radius: 14px;
+    background-color: rgb(255, 255, 255);
+}
+#date{
+    width: 20vw;
+    height: 4vh;
+    border-radius: 14px;
+    background-color: rgb(255, 252, 252);
+}
+#type:hover{
+    background-color: rgb(185, 184, 184);
+    color: rgb(0, 0, 0);
+}
+#date:hover{
+    background-color: rgb(185, 184, 184);
+    color: rgb(0, 0, 0);
+}
+.btm{
+    margin-left: 120px;
 }
